@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "A41DBBAB-1849-4BD2-88BE-891AD162A837": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "D16AA110-3BEE-4F56-B4D0-44A7415EFC53": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "E83A1A25-61DF-41B6-84B8-28CCD26DE7F1": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "skincancerkeras.mlmodel",
+            "path": "com.apple.CoreML/skincancerkeras.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "E83A1A25-61DF-41B6-84B8-28CCD26DE7F1"
+}
