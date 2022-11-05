@@ -5,11 +5,9 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 import keras.api.keras as keras
-import scikeras
 
 from keras.layers import * # import all, including Dense, add, Flatten, etc.
 from keras.models import Model, Sequential
-from scikeras.wrappers import KerasClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, roc_auc_score, accuracy_score
 from keras.applications.mobilenet import MobileNet
