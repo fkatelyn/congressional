@@ -21,7 +21,7 @@ IMG_WIDTH = 100
 IMG_HEIGHT = 75
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=101)
-y_train, y_test = train_test_split(X_g, y, test_size=0.4, random_state=101)
+y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=101)
 
 X_train = X_train.astype(np.float32)
 X_test = X_test.astype(np.float32)
